@@ -8,6 +8,21 @@ body{
     font-size: 16px;
     margin-bottom: 100px;
 }
-.container{
+.bg-Nav{
     background-color: $bgColor--Nav;
+}
+.fa-bars{
+    height: 1.5rem;
+    color: #d8fffe;
+    padding: 5px;
+}
+.fa-bars:hover{
+    border:1px solid #d8fffe;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logo{
+    height: 50px;
+    color: #d8fffe;
+    padding:10px 0;
 }
