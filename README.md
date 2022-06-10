@@ -1,1 +1,2 @@
-# GamingStore
+/node_modules
+/dist

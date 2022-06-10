@@ -1,0 +1,13 @@
+@import "_globals.scss";
+
+html {
+    min-height: 100%;
+    position: relative;
+  }
+body{
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+.container{
+    background-color: $bgColor--Nav;
+}
