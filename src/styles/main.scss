@@ -1,4 +1,4 @@
-@import "_globals.scss";
+@import "_variables.scss";
 
 html {
     min-height: 100%;
@@ -8,21 +8,72 @@ body{
     font-size: 16px;
     margin-bottom: 100px;
 }
-.bg-Nav{
-    background-color: $bgColor--Nav;
+nav{background: $bg-nav;}
+.navbar-toggler{border: none;}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-.fa-bars{
-    height: 1.5rem;
-    color: #d8fffe;
-    padding: 5px;
+
+main .top-6{
+    margin-top: 6rem;
 }
-.fa-bars:hover{
-    border:1px solid #d8fffe;
-    border-radius: 5px;
-    cursor: pointer;
+
+.filter{
+    background: $bg-filter;
 }
-.logo{
-    height: 50px;
-    color: #d8fffe;
-    padding:10px 0;
+.badge{
+    color: #7E0C5F;
+    border-color: #7E0C5F;
+    padding: 10px;
+    margin-right: 8px;
+}
+.br-0{
+    border-right: none;
+    border-color: $bg-nav;
+}
+
+.bl-0{
+    border-left: 0;
+    border-color: $bg-nav;
+}
+.border-0{
+border: none;
+}
+
+.accordion-button::after{
+margin: auto;
+}
+.accordion-button:focus{
+    border: none;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed){
+border: none;}
+.card-body{
+    background: $bg-nav;
+}
+.ct_item-active{
+    background: #7E0C5F;
+    color: white;
+}
+.product-item{
+
+	transition: all .4s;
+}
+.alert{
+    background: #60FFFF;
+    color: black;
+    font-size: 14px;
+    border-left-color: #005980;
+    border-left-width: 5px;
+}
+.bi-emoji-frown{
+    margin-left: 20px;
+}
+footer{
+    height: 80px;
+    background: $bg-nav;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

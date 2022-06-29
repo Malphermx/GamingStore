@@ -1,17 +1,174 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <title>landing games</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top p-0">
+      <div class="container-fluid px-5">
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="./assets/img/logo.png" class="navbar-brand" href="#"></img>
+      </div>
+    </nav>
 
-    <title>GamingStore</title>
-</head>
-<body>
-  <header-component></header-component>
-  <banner-component></banner-component>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
+
+    <main class="container">
+      <img class="img-fluid top-6 col-12" src="./assets/img/rectangulo-301.png" alt="">
+      <section class="mt-4">
+        <p class="m-0">Paquete Ideal gaming</p>
+        <p class="text-secondary">Selecciona una o más opciones</p>
+      </section>
+      <section class="filter p-4 accordion">
+        <div class="row">
+          <div class="col-lg-7 mb-4"">
+            <button type="button" class="badge rounded-pill mb-2 category_item" category="Items">Items</button>
+            <button type="button" class="badge rounded-pill mb-2 category_item" category="Boosters">Boosters</button>
+            <button type="button" class="badge rounded-pill mb-2 category_item" category="Armaduras">Armaduras</button>
+            <button type="button" class="badge rounded-pill mb-2 category_item" category="Armas">Armas</button>
+            <button type="button" class="badge rounded-pill mb-2 category_item" category="Cards">Cards</button>
+            <button type="button" class="badge rounded-pill mb-2 category_item" category="Unidades">Unidades</button>
+          </div>
+          <div class="col-lg-5">
+            <div class="input-group mb-3">
+              <span class="input-group-text bg-transparent br-0" id="basic-addon1"><svg width="20" height="20" class="DocSearch-Search-Icon" viewBox="0 0 20 20"><path d="M14.386 14.386l4.0877 4.0877-4.0877-4.0877c-2.9418 2.9419-7.7115 2.9419-10.6533 0-2.9419-2.9418-2.9419-7.7115 0-10.6533 2.9418-2.9419 7.7115-2.9419 10.6533 0 2.9419 2.9418 2.9419 7.7115 0 10.6533z" stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+              <input type="text" class="form-control bg-transparent bl-0" placeholder="Búsqueda" id="search">
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-transparent border-0">
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+            <div class="accordion-body row" id="cards">
+              <div class="col-lg-3 mt-4 product-item" category="Items">
+                <div class="card h-100">
+                  <img src="./assets/img/Rectángulo 303.png" alt="">
+            
+                  <div class="card-body">
+                    <p class="card-text">001</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 mt-4 product-item" category="Items">
+                <div class="card h-100">
+                  <img src="./assets/img/rectangulo-1.png" alt="">
+            
+                  <div class="card-body">
+                    <p class="card-text">002</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 mt-4 product-item" category="Items">
+                <div class="card h-100">
+                  <img src="./assets/img/rectangulo-2.png" alt="">
+            
+                  <div class="card-body">
+                    <p class="card-text">003</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 mt-4 product-item" category="Boosters">
+                <div class="card h-100">
+                  <img src="./assets/img/rectangulo-3.png" alt="">
+            
+                  <div class="card-body">
+                    <p class="card-text">004</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 mt-4 product-item" category="Boosters">
+                <div class="card h-100">
+                  <img src="./assets/img/rectangulo-4.png" alt="">
+            
+                  <div class="card-body">
+                    <p class="card-text">005</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 mt-4 product-item" category="Armaduras">
+                <div class="card h-100">
+                  <img src="./assets/img/rectangulo-5.png" alt="">
+            
+                  <div class="card-body">
+                    <p class="card-text">006</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 mt-4 product-item" category="Armaduras">
+                <div class="card h-100">
+                  <img src="./assets/img/rectangulo-6.png" alt="">
+            
+                  <div class="card-body">
+                    <p class="card-text">007</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 mt-4 product-item" category="Armas">
+                <div class="card h-100">
+                  <img src="./assets/img/rectangulo-7.png" alt="">
+            
+                  <div class="card-body">
+                    <p class="card-text">008</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 mt-4 product-item" category="Armas">
+                <div class="card h-100">
+                  <img src="./assets/img/rectangulo-8.png" alt="">
+            
+                  <div class="card-body">
+                    <p class="card-text">009</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 mt-4 product-item" category="Armas">
+                <div class="card h-100">
+                  <img src="./assets/img/rectangulo-9.png" alt="">
+            
+                  <div class="card-body">
+                    <p class="card-text">010</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 mt-4 product-item" category="Cards">
+                <div class="card h-100">
+                  <img src="./assets/img/Rectángulo -10.png" alt="">
+            
+                  <div class="card-body">
+                    <p class="card-text">011</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 mt-4 product-item" category="Unidades">
+                <div class="card h-100">
+                  <img src="./assets/img/Rectángulo -11.png" alt="">
+            
+                  <div class="card-body">
+                    <p class="card-text">012</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <button class="accordion-button collapsed margin-auto bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            </button>
+        </div>
+      </section>
+    </main>
+
+
+    <footer class="bg-nav">
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
